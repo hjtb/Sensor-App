@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/main.m
+END
+LogController.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/LogController.m
+END
+SerialConsoleAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsoleAppDelegate.h
+END
+SerialConsole-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsole-Info.plist
+END
+LogController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/LogController.xib
+END
+SerialConsole-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsole-Prefix.pch
+END
+SerialConsoleViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsoleViewController.h
+END
+SerialConsoleAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsoleAppDelegate.m
+END
+LogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/LogController.h
+END
+SerialConsoleViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsoleWithLogWindow/SerialConsole/SerialConsoleViewController.m
+END

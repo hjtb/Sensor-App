@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/main.m
+END
+SerialConsoleAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsoleAppDelegate.h
+END
+SerialConsole-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsole-Info.plist
+END
+SerialConsole-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsole-Prefix.pch
+END
+SerialConsoleViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsoleViewController.h
+END
+SerialConsoleAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsoleAppDelegate.m
+END
+SerialConsoleViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch02/SerialConsole/SerialConsole/SerialConsoleViewController.m
+END

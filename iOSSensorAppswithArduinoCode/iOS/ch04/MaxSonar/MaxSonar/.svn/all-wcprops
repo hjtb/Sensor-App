@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar
+END
+MaxSonarAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonarAppDelegate.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/main.m
+END
+MaxSonarViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonarViewController.m
+END
+MaxSonarAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonarAppDelegate.h
+END
+MaxSonar-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonar-Info.plist
+END
+MaxSonar-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonar-Prefix.pch
+END
+MaxSonarViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch04/MaxSonar/MaxSonar/MaxSonarViewController.h
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/main.m
+END
+LogController.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/LogController.m
+END
+PaduinoAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/PaduinoAppDelegate.h
+END
+ArduinoUno.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/ArduinoUno.jpg
+END
+Paduino-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/Paduino-Info.plist
+END
+Paduino-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/Paduino-Prefix.pch
+END
+PaduinoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/PaduinoViewController.h
+END
+LogController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/LogController.xib
+END
+PaduinoAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/PaduinoAppDelegate.m
+END
+PaduinoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/PaduinoViewController.m
+END
+LogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/364305/internal/books/9781449308483/current/code/iOS/ch03/Paduino/Paduino/LogController.h
+END

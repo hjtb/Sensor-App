@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00685B3113D1D4A700C9C20B /* ArduinoUno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00685B3013D1D4A700C9C20B /* ArduinoUno.jpg */; };
+		00685B9113D229FA00C9C20B /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00685B8F13D229FA00C9C20B /* LogController.m */; };
+		00685B9213D229FA00C9C20B /* LogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00685B9013D229FA00C9C20B /* LogController.xib */; };
+		009E5BBD13D1AE9A00B395E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009E5BBC13D1AE9A00B395E3 /* UIKit.framework */; };
+		009E5BBF13D1AE9A00B395E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009E5BBE13D1AE9A00B395E3 /* Foundation.framework */; };
+		009E5BC113D1AE9A00B395E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009E5BC013D1AE9A00B395E3 /* CoreGraphics.framework */; };
+		009E5BC713D1AE9A00B395E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 009E5BC513D1AE9A00B395E3 /* InfoPlist.strings */; };
+		009E5BCA13D1AE9A00B395E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E5BC913D1AE9A00B395E3 /* main.m */; };
+		009E5BCD13D1AE9A00B395E3 /* PaduinoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E5BCC13D1AE9A00B395E3 /* PaduinoAppDelegate.m */; };
+		009E5BD013D1AE9A00B395E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009E5BCE13D1AE9A00B395E3 /* MainWindow.xib */; };
+		009E5BD313D1AE9A00B395E3 /* PaduinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E5BD213D1AE9A00B395E3 /* PaduinoViewController.m */; };
+		009E5BD613D1AE9A00B395E3 /* PaduinoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009E5BD413D1AE9A00B395E3 /* PaduinoViewController.xib */; };
+		009E5BDF13D1B2D300B395E3 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009E5BDC13D1B2D300B395E3 /* libRscMgrUniv.a */; };
+		009E5BE213D1B2ED00B395E3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009E5BE113D1B2ED00B395E3 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00685B3013D1D4A700C9C20B /* ArduinoUno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArduinoUno.jpg; sourceTree = "<group>"; };
+		00685B8E13D229FA00C9C20B /* LogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogController.h; sourceTree = "<group>"; };
+		00685B8F13D229FA00C9C20B /* LogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogController.m; sourceTree = "<group>"; };
+		00685B9013D229FA00C9C20B /* LogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogController.xib; sourceTree = "<group>"; };
+		009E5BB813D1AE9A00B395E3 /* Paduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009E5BBC13D1AE9A00B395E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		009E5BBE13D1AE9A00B395E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		009E5BC013D1AE9A00B395E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		009E5BC413D1AE9A00B395E3 /* Paduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paduino-Info.plist"; sourceTree = "<group>"; };
+		009E5BC613D1AE9A00B395E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		009E5BC813D1AE9A00B395E3 /* Paduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paduino-Prefix.pch"; sourceTree = "<group>"; };
+		009E5BC913D1AE9A00B395E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		009E5BCB13D1AE9A00B395E3 /* PaduinoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaduinoAppDelegate.h; sourceTree = "<group>"; };
+		009E5BCC13D1AE9A00B395E3 /* PaduinoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaduinoAppDelegate.m; sourceTree = "<group>"; };
+		009E5BCF13D1AE9A00B395E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		009E5BD113D1AE9A00B395E3 /* PaduinoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaduinoViewController.h; sourceTree = "<group>"; };
+		009E5BD213D1AE9A00B395E3 /* PaduinoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaduinoViewController.m; sourceTree = "<group>"; };
+		009E5BD513D1AE9A00B395E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PaduinoViewController.xib; sourceTree = "<group>"; };
+		009E5BDC13D1B2D300B395E3 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		009E5BDD13D1B2D300B395E3 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		009E5BDE13D1B2D300B395E3 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		009E5BE113D1B2ED00B395E3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009E5BB513D1AE9A00B395E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009E5BE213D1B2ED00B395E3 /* ExternalAccessory.framework in Frameworks */,
+				009E5BBD13D1AE9A00B395E3 /* UIKit.framework in Frameworks */,
+				009E5BBF13D1AE9A00B395E3 /* Foundation.framework in Frameworks */,
+				009E5BC113D1AE9A00B395E3 /* CoreGraphics.framework in Frameworks */,
+				009E5BDF13D1B2D300B395E3 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009E5BAD13D1AE9A00B395E3 = {
+			isa = PBXGroup;
+			children = (
+				009E5BE013D1B2D800B395E3 /* Redpark Serial SDK */,
+				009E5BC213D1AE9A00B395E3 /* Paduino */,
+				009E5BBB13D1AE9A00B395E3 /* Frameworks */,
+				009E5BB913D1AE9A00B395E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009E5BB913D1AE9A00B395E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009E5BB813D1AE9A00B395E3 /* Paduino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009E5BBB13D1AE9A00B395E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				009E5BE113D1B2ED00B395E3 /* ExternalAccessory.framework */,
+				009E5BBC13D1AE9A00B395E3 /* UIKit.framework */,
+				009E5BBE13D1AE9A00B395E3 /* Foundation.framework */,
+				009E5BC013D1AE9A00B395E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		009E5BC213D1AE9A00B395E3 /* Paduino */ = {
+			isa = PBXGroup;
+			children = (
+				009E5BCB13D1AE9A00B395E3 /* PaduinoAppDelegate.h */,
+				009E5BCC13D1AE9A00B395E3 /* PaduinoAppDelegate.m */,
+				009E5BCE13D1AE9A00B395E3 /* MainWindow.xib */,
+				009E5BD113D1AE9A00B395E3 /* PaduinoViewController.h */,
+				009E5BD213D1AE9A00B395E3 /* PaduinoViewController.m */,
+				009E5BD413D1AE9A00B395E3 /* PaduinoViewController.xib */,
+				00685B8E13D229FA00C9C20B /* LogController.h */,
+				00685B8F13D229FA00C9C20B /* LogController.m */,
+				00685B9013D229FA00C9C20B /* LogController.xib */,
+				009E5BC313D1AE9A00B395E3 /* Supporting Files */,
+			);
+			path = Paduino;
+			sourceTree = "<group>";
+		};
+		009E5BC313D1AE9A00B395E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00685B3013D1D4A700C9C20B /* ArduinoUno.jpg */,
+				009E5BC413D1AE9A00B395E3 /* Paduino-Info.plist */,
+				009E5BC513D1AE9A00B395E3 /* InfoPlist.strings */,
+				009E5BC813D1AE9A00B395E3 /* Paduino-Prefix.pch */,
+				009E5BC913D1AE9A00B395E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009E5BE013D1B2D800B395E3 /* Redpark Serial SDK */ = {
+			isa = PBXGroup;
+			children = (
+				009E5BDC13D1B2D300B395E3 /* libRscMgrUniv.a */,
+				009E5BDD13D1B2D300B395E3 /* redparkSerial.h */,
+				009E5BDE13D1B2D300B395E3 /* RscMgr.h */,
+			);
+			name = "Redpark Serial SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009E5BB713D1AE9A00B395E3 /* Paduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009E5BD913D1AE9A00B395E3 /* Build configuration list for PBXNativeTarget "Paduino" */;
+			buildPhases = (
+				009E5BB413D1AE9A00B395E3 /* Sources */,
+				009E5BB513D1AE9A00B395E3 /* Frameworks */,
+				009E5BB613D1AE9A00B395E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paduino;
+			productName = Paduino;
+			productReference = 009E5BB813D1AE9A00B395E3 /* Paduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009E5BAF13D1AE9A00B395E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Exeter";
+			};
+			buildConfigurationList = 009E5BB213D1AE9A00B395E3 /* Build configuration list for PBXProject "Paduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 009E5BAD13D1AE9A00B395E3;
+			productRefGroup = 009E5BB913D1AE9A00B395E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009E5BB713D1AE9A00B395E3 /* Paduino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009E5BB613D1AE9A00B395E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009E5BC713D1AE9A00B395E3 /* InfoPlist.strings in Resources */,
+				009E5BD013D1AE9A00B395E3 /* MainWindow.xib in Resources */,
+				009E5BD613D1AE9A00B395E3 /* PaduinoViewController.xib in Resources */,
+				00685B3113D1D4A700C9C20B /* ArduinoUno.jpg in Resources */,
+				00685B9213D229FA00C9C20B /* LogController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009E5BB413D1AE9A00B395E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009E5BCA13D1AE9A00B395E3 /* main.m in Sources */,
+				009E5BCD13D1AE9A00B395E3 /* PaduinoAppDelegate.m in Sources */,
+				009E5BD313D1AE9A00B395E3 /* PaduinoViewController.m in Sources */,
+				00685B9113D229FA00C9C20B /* LogController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		009E5BC513D1AE9A00B395E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009E5BC613D1AE9A00B395E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		009E5BCE13D1AE9A00B395E3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009E5BCF13D1AE9A00B395E3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		009E5BD413D1AE9A00B395E3 /* PaduinoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009E5BD513D1AE9A00B395E3 /* en */,
+			);
+			name = PaduinoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009E5BD713D1AE9A00B395E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		009E5BD813D1AE9A00B395E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		009E5BDA13D1AE9A00B395E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paduino/Paduino-Prefix.pch";
+				INFOPLIST_FILE = "Paduino/Paduino-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		009E5BDB13D1AE9A00B395E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paduino/Paduino-Prefix.pch";
+				INFOPLIST_FILE = "Paduino/Paduino-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009E5BB213D1AE9A00B395E3 /* Build configuration list for PBXProject "Paduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009E5BD713D1AE9A00B395E3 /* Debug */,
+				009E5BD813D1AE9A00B395E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009E5BD913D1AE9A00B395E3 /* Build configuration list for PBXNativeTarget "Paduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009E5BDA13D1AE9A00B395E3 /* Debug */,
+				009E5BDB13D1AE9A00B395E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009E5BAF13D1AE9A00B395E3 /* Project object */;
+}
